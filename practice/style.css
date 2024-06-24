@@ -1,0 +1,20 @@
+.section-1{
+    height: 500px;
+    background-color: burlywood;
+}
+
+.sect {
+    color: blue;
+}
+
+@media (width <= 700px){
+    .section-1{
+        background-color: black;
+        height: 100px;
+
+    }
+
+    .sect {
+        color: red;
+    }
+}
